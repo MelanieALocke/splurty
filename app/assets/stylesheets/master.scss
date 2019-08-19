@@ -31,6 +31,7 @@
 }
 .links {
   padding-top: 25px;
+  float: right;
 }
 .links a {
   color: black;
@@ -38,6 +39,7 @@
   border-bottom: 1px solid #DE1F1F;
   font-family: 'allerregular', sans-serif;
   font-weight: bold;
+  margin-left: 20px;
 }
 header {
   border-top: 9px solid #222222;
@@ -52,4 +54,14 @@ h1 {
 }
 h2 {
   font-family: 'alleritalic', sans-serif;
+}
+.next-quote {
+  color: #DE1F1F;
+  font-family: 'alleritalic', sans-serif;
+  font-size: 20px;
+}
+.footer-blurb {
+  font-family: 'alleritalic', sans-serif;
+  font-size: 10px;
+  text-align: right;
 }
