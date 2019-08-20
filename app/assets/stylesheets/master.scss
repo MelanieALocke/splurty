@@ -39,7 +39,6 @@
   border-bottom: 1px solid #DE1F1F;
   font-family: 'allerregular', sans-serif;
   font-weight: bold;
-  margin-left: 20px;
 }
 header {
   border-top: 9px solid #222222;
@@ -70,4 +69,19 @@ h2 {
 }
 .about {
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+@media (max-width: 750px) {
+  .footer-blurb {
+  text-align: left;
+  }
+}
+.modal {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+h2 span {
+  color: #dddddd;
+  font-family: 'allerregular', sans-serif;
+}
+::selection {
+  background-color: #f84342;
 }
